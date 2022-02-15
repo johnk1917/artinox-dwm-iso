@@ -1,0 +1,54 @@
+# loads by default common/packages-{base,apps}
+
+mkinitcpio-nfs-utils
+squashfs-tools
+
+artix-grub-live
+
+artix-live-@initsys@
+
+artix-archlinux-support
+
+#######################################################
+###                    ALCI                         ###
+#######################################################
+
+#######################################################
+###  PACKAGES THAT ARE REMOVED AFTER INSTALLATION   ###
+###             VIA CALAMARES CONFIG                ###
+#######################################################
+alci-calamares
+alci-calamares-config
+base-devel
+git
+dunst
+pulseaudio
+artinox-dwm
+artinox-scripts
+artinox-dmenu
+artinox-dunst
+artinox-screenshot
+artinox-sxhkd
+artinox-ranger-xorg
+artinox-alacritty
+python2
+python3
+dex
+libxinerama
+make
+network-manager-applet
+neovim
+xorg-xkill
+xorg-xrdb
+xorg-xsetroot
+xorg-xrandr
+feh
+picom-ibhagwan-git
+neofetch
+viewnior
+ueberzug
+imagemagick
+ttf-iosevka-nerd
+ttf-font-awesome
+dkms
+broadcom-wl-dkms
